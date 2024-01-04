@@ -22,7 +22,6 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 24px;
-  font-weight: bold;
 }
 
 #nav-links {
@@ -65,7 +64,7 @@ a:not(.no-underline):hover::after {
 }
 
 /* Column styles */
-.column {
+.firstpage-column {
   flex: 1;
   padding: 20px;
   background-color: #000; /* Black background */
@@ -75,6 +74,28 @@ a:not(.no-underline):hover::after {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.secondpage-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  margin-right: 20px;
+  margin-bottom: 20px;
+  align-items: left;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondpage-column p {
+  line-height: 1.5;
+  padding: 0px;
+  margin: 0px;
+}
+
+.secondpage-column li {
+  line-height: 1.5;
 }
 
 .post-loop {
